@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    image: us-docker.pkg.dev/colab-images/public/runtime
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    ports:
+      - "127.0.0.1:9000:8080"
+    volumes:
+      - ./data:/data
+    runtime: nvidia
