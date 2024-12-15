@@ -280,3 +280,4 @@ def sharpen_with_mask(image, kernel=(5, 5), sigma=0.5, intensity=1.0, threshold=
         np.copyto(sharpness, image, where=low_contrast_mask)
 
     return sharpness
+
