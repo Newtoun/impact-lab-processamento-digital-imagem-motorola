@@ -25,7 +25,11 @@
 </ul>
 
 ---
+### Como compilar?
 
+<p>na base do diretoria raiz baixe o dataset https://drive.google.com/file/d/1psMH1-zmI4rVJVELxr0ErkhduqpzJXwb/view?usp=sharing e crie uma pasta "data" e insira os arquivos. De acordo com o nome desejado modifique o inicio do arquivo para encontrar a rota da imagem da label e com ruido</p>
+
+---
 ### Resultados
 
 <p>Os parâmetros dos valores utilizados na melhor métrica foram:</p>
