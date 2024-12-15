@@ -40,7 +40,15 @@ image = color_correction(image, 32)
 ```
 # Resultados das Métricas
 
-<p>A melhor sequência testada apresentou os seguintes valores no score:</p> <div> <p><strong>Resultados das Métricas ciclo 25:</strong></p> <ul> <li>PSNR Médio: 14.916848654521441</li> <li>SSIM Médio: 0.43887301056052486</li> <li>BRISQUE Médio: 19.037722610643304</li> <li>NIQE Médio: 0.8810591336391026</li> </ul> </div> <p>Gráficos ilustrativos dos resultados:</p> <img src="./img_output/grafico_final_ciclo_25.png" alt="Gráfico Final - Ciclo 25"> <img src="./img_output/ciclo_positivo_psnr.png" alt="Ciclo Positivo PSNR"> <img src="./img_output/ciclo_positivo_ssim.png" alt="Ciclo Positivo SSIM"> <img src="./img_output/ciclo_positivo_niqe.png" alt="Ciclo Positivo NIQE"> <img src="./img_output/ciclo_positivo_brisque.png" alt="Ciclo Positivo BRISQUE">
+<p>A melhor sequência testada apresentou os seguintes valores no score:</p> <div> <p><strong>Resultados das Métricas ciclo 25:</strong></p> <ul> <li>PSNR Médio: 14.916848654521441</li> <li>SSIM Médio: 0.43887301056052486</li> <li>BRISQUE Médio: 19.037722610643304</li> <li>NIQE Médio: 0.8810591336391026</li> </ul> </div> <p>Gráficos ilustrativos dos resultados:</p> 
+
+# As 10 melhores imagens de cada metrica
+
+<img src="./img_output/grafico_final_ciclo_25.png" alt="Gráfico Final - Ciclo 25"> 
+<img src="./img_output/ciclo_positivo_psnr.png" alt="Ciclo Positivo PSNR"> 
+<img src="./img_output/ciclo_positivo_ssim.png" alt="Ciclo Positivo SSIM"> 
+<img src="./img_output/ciclo_positivo_niqe.png" alt="Ciclo Positivo NIQE"> 
+<img src="./img_output/ciclo_positivo_brisque.png" alt="Ciclo Positivo BRISQUE">
 
 
 Aqui estão os resultados das métricas avaliadas para cada ciclo:
